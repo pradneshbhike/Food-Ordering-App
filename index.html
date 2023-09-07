@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css file added here -->
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- "This is how we can dynamically create HTML code with JS and target it using id" -->
+    <!-- <script>
+        const element = document.createElement("h1");
+        element.innerHTML = "Namaste JS!";
+
+        const root = document.getElementById("root");
+
+        root.appendChild(element);
+    </script> -->
+
+
+    <!-- Development Content Delivery Network links-->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+
+    <!-- production Content Delivery Network Links-->
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script> -->
+    
+
+    <script type="module" src="./src/App.js"></script>
+    <!-- <style src="./style.css"></style> -->
+</body>
+</html>
