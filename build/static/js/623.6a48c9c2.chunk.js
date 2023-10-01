@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfood=self.webpackChunkfood||[]).push([[623],{623:function(e,o,r){r.r(o);var n=r(184);o.default=function(){return(0,n.jsx)("div",{children:(0,n.jsx)("h1",{children:"Grocerry store soon coming to youy service..........!"})})}}}]);
+//# sourceMappingURL=623.6a48c9c2.chunk.js.map
